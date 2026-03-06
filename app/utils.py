@@ -15,6 +15,11 @@ def calculate_salary(data):
     net = gross - (data['pf'] + data['tax'] + data['other_deductions'])
     return gross, net
 
+# new funct
+
+def emp():
+    pass
+
 def generate_payslip(employee, salary, filepath):
     doc = SimpleDocTemplate(filepath)
     elements = []
